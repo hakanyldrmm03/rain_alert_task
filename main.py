@@ -35,7 +35,7 @@ if will_rain:
     message = client.messages \
         .create(
         body="It's raining!",
-        from_="whatsapp:+17372508034",
-        to="whatsapp:+905060982399"
+        from_="+17372508034",
+        to="+905060982399"
     )
     print(message.status)
